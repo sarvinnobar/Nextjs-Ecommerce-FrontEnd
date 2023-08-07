@@ -1,0 +1,101 @@
+@keyframes btnColor {
+  from {
+    border: 0.1rem solid aqua;
+    color: black;
+  }
+  to {
+    border: 0.1rem solid black;
+    color: aqua;
+  }
+}
+@keyframes wrapperSize {
+  from {
+    width: 100%;
+    height: 20rem;
+  }
+  to {
+    width: 110%;
+    height: 23rem;
+  }
+}
+.boxDiv {
+  margin-top: 1.5rem;
+  margin-bottom: 0.1rem;
+}
+.boxWrapperLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 20rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: black;
+}
+.boxImgDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.boxImgDiv img {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+.boxInfo {
+  margin-top: 0.5rem;
+}
+.boxTitle {
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  color: inherit;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
+.boxPriceRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.boxPrice {
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-align: right;
+}
+.btnLinkDiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 7rem;
+  height: 2rem;
+}
+.btnBox {
+  width: 7rem;
+  padding: 0.8rem;
+  height: 1.2rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  border: 0.1rem solid aqua;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.btnBox:hover {
+  animation: btnColor 0.8s;
+  animation-fill-mode: forwards;
+}
+
+.boxWrapperLink:hover {
+  animation: wrapperSize 1s;
+  animation-fill-mode: forwards;
+}

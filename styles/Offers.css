@@ -1,0 +1,85 @@
+:root {
+  --fontp: 1.1rem;
+  --fonth1: 4rem;
+}
+@keyframes widthChange {
+  from {
+    max-width: 120rem;
+  }
+  to {
+    max-width: 30rem;
+  }
+}
+@keyframes heightChange {
+  from {
+    max-height: 120rem;
+  }
+  to {
+    max-height: 30rem;
+  }
+}
+
+.offerDiv {
+  background-color: #333;
+  color: white;
+  padding: 50px 0;
+}
+
+.offerDiv h1 {
+  font-weight: normal;
+  margin: 0;
+  font-size: var(--fonth1);
+}
+
+.offerDiv p {
+  color: #aaa;
+  font-size: var(--fontp);
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 90px;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper img {
+  max-width: 30rem;
+  max-height: 30rem;
+  animation: widthChange 10s, heightChange 10s;
+  animation-delay: -5s;
+  animation-fill-mode: forwards;
+}
+
+.btn {
+  font-size: 1.5rem;
+  padding: 5px 15px;
+  border-radius: 7px;
+  margin-right: 1rem;
+  margin-top: 1.2rem;
+  display: inline-flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.fbtn {
+  background-color: transparent;
+  color: white;
+  border: 0.01px solid white;
+}
+
+.sbtn {
+  background-color: aqua;
+  color: #333;
+  border: 1px solid aqua;
+}
+
+.wrapper svg {
+  height: 28px;
+  margin-left: 9px;
+}
+
+.btngrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

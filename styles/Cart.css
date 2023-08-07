@@ -1,0 +1,87 @@
+.cartWrapper {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.cartDiv {
+  background-color: #fff;
+  border-radius: 1.5rem;
+  padding: 2.5rem;
+}
+.cartTable {
+  width: 100%;
+}
+.cartTable th {
+  text-align: left;
+  text-transform: uppercase;
+  color: #ccc;
+  font-weight: 600;
+  font-size: 0.7rem;
+}
+
+.cartTable td {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.orderInfo {
+  padding: 10px 0;
+}
+
+.orderImg {
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.orderImg img {
+  max-width: 80px;
+  max-height: 80px;
+}
+.qnty {
+  display: inline-block;
+  padding: 0 10px;
+}
+.cartBtn {
+  border: 0;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.checkoutBtn {
+  border: 0;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  background-color: #333;
+  color: white;
+  width: 100%;
+  height: 5vh;
+  margin-top: 1rem;
+}
+
+.cartDiv input {
+  width: 100%;
+  height: 5vh;
+  margin-top: 10px;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.cartFlex {
+  display: flex;
+  width: inherit;
+  gap: 0.5rem;
+}

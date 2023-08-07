@@ -1,0 +1,38 @@
+.colWrapper {
+  gap: 40px;
+  margin: 40px 0;
+}
+.productBox {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+}
+.productBox img {
+  display: flex;
+  gap: 10px;
+  flex-grow: 0;
+  margin-top: 10px;
+}
+.singleTitle {
+  font-size: 1.5rem;
+}
+.singlePriceRow {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.singleBtn {
+  border: 0;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.singleBtn svg {
+  height: 16px;
+  margin-right: 5px;
+}

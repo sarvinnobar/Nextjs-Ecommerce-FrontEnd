@@ -1,0 +1,38 @@
+@keyframes linkColor {
+  from {
+    color: #aaa;
+  }
+  to {
+    color: aqua;
+  }
+}
+.headerDiv {
+  background-color: #343434;
+}
+.logo {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.navLink {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navLink:hover {
+  animation-name: linkColor;
+  animation-duration: 1.5s;
+}
